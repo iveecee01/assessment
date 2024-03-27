@@ -1,0 +1,11 @@
+fiona==1.9.5
+fonttools==4.25.0
+GDAL==3.6.2
+geopandas
+openpyxl==3.0.10
+pandas
+psycopg2
+py7zr==0.21.0
+requests
+shapely
+SQLAlchemy
