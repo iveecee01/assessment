@@ -14,7 +14,7 @@ import psycopg2
 
 PASSWD = getpass('Type password: ')
 HOME = Path.cwd().parent.joinpath("data")
-
+HOME.mkdir(parents=True, exist_ok=True)
 
 def run_query(dbname, query):
     """Runs query in a database
