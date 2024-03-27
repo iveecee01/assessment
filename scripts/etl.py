@@ -192,7 +192,7 @@ def add_eia_db(dbname):
 def main():
     """Extracts and loads census and eia data into database
     """
-    dbname = 'data_store'
+    dbname = 'test'
     initialize_db(dbname)
     add_census_db(dbname)
     add_eia_db(dbname)
