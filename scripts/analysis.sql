@@ -5,7 +5,7 @@
 WITH tracts_intersect AS (
     SELECT DISTINCT t.*
     FROM tracts t
-    LEFT JOIN generators_spatial g ON ST_Intersects(t.geom, g.geom)
+    JOIN generators_spatial g ON ST_Intersects(t.geom, g.geom)
     WHERE g."Technology" = 'Conventional Steam Coal' 
     AND CAST(g."Retirement Year" AS int) >= 2009
 )
