@@ -1,4 +1,4 @@
--- This query first finds tracts that are have met condition
+-- This query first finds tracts that have met condition
 -- It then searchs for adjoining tracts by looking for tracts that intersect
 -- There are 224 census tracts with coal generators retired after 2009
 -- There are 1750 cesus tracts that meet the coal closure conditions in section III
